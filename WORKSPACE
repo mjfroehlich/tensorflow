@@ -29,7 +29,7 @@ android_sdk_repository(
 # Android NDK r12b is recommended (higher may cause issues with Bazel)
 android_ndk_repository(
     name="androidndk",
-    path="/usr/local/share/android-ndk",
+    path="../lib/android-ndk-r12b",
     # This needs to be 14 or higher to compile TensorFlow.
     # Note that the NDK version is not the API level.
     api_level=14)
